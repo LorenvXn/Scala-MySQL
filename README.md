@@ -32,4 +32,4 @@ Insert has been done
 root@tron:~/scalala# 
 ```
 
-More details on sbt & some Spark/Scala implementations - check attached tutorial.
+More details on sbt & some "basicness" on Spark/Scala implementations - check attached tutorial.
