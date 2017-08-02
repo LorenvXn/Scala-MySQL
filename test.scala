@@ -33,6 +33,8 @@ object ScalaJdbcConnectSelect {
 	}
 
 //you could throw here some catching errors ...but whatevs!
+	  //send all in a csv file
+val resultSet2 = statement.executeQuery("select * from products into outfile '/var/lib/mysql-files/test_products.csv' fields terminated by ',' lines terminated by '\n'")
 
     connection.close()
   }
