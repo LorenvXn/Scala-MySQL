@@ -1,6 +1,6 @@
 # Scala-MySQL
 
-Details on table products (database products):
+Details on table products (database southwind):
 
 ```
 root@tron:~/scalala# mysql -u root -e "use southwind; describe products" -p
@@ -32,3 +32,4 @@ Insert has been done
 root@tron:~/scalala# 
 ```
 
+More details on sbt & some Spark/Scala implementations - check attached tutorial.
