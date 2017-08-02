@@ -32,4 +32,17 @@ Insert has been done
 root@tron:~/scalala# 
 ```
 
+check CSV:
+
+```
+root@tron:~/scalala# more /var/lib/mysql-files/test_products.csv 
+1001,PEN,Pen Red,5000,1.23
+1002,PEN,Pen Blue,8000,1.25
+1003,PEN,Pen Black,2000,1.25
+1004,PEC,Pencil 2B,10000,0.483
+1008,PEN,Blue Pen,23,3.23
+1010,PEN,Blue Pen,23,3.23
+```
+
+
 More details on sbt & some "basicness" on Spark/Scala implementations - check attached tutorial.
