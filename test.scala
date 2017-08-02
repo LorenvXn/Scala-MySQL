@@ -6,7 +6,7 @@ object ScalaJdbcConnectSelect {
   def main(args: Array[String]) {
    
     val driver = "com.mysql.jdbc.Driver"
-    val url = "jdbc:mysql://localhost/southwind"
+    val url = "jdbc:mysql://localhost/southwind"  //southwind is the database..
     val username = "root"
     val password = "<yo passwd>"
 
@@ -16,7 +16,7 @@ object ScalaJdbcConnectSelect {
      Class.forName(driver)
     connection = DriverManager.getConnection(url, username, password)
 
-   //insert
+   //insert some values in products.southwind
  val statement = connection.createStatement()
  val resultSet = statement.executeUpdate("INSERT INTO  products (productID, productCode, name, quantity, price) values('1010', 'PEN', 'Blue Pen', '23','3.23')")
 
